@@ -1,0 +1,41 @@
+{
+  "name": "@sigil/components-react",
+  "version": "0.1.0",
+  "description": "React wrappers for the Sigil Design System Web Components",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "web-components",
+    "vite",
+    "lit",
+    "accessibility"
+  ],
+  "author": "Krissy Conant",
+  "license": "MIT",
+  "packageManager": "pnpm@10.9.0",
+  "dependencies": {
+    "react": "18",
+    "react-dom": "18"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.4",
+    "@testing-library/react": "^14.1.2",
+    "@types/node": "^22.15.3",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "@vitejs/plugin-react": "^4.4.1",
+    "jest-axe": "^10.0.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.4",
+    "vitest": "^3.1.2"
+  }
+}
