@@ -1,0 +1,22 @@
+{
+  "color": {
+    "brand": {
+      "primary": { "value": "#5C33F6" },
+      "secondary": { "value": "#F6B733" }
+    },
+    "text": {
+      "default": { "value": "#1A1A1A" },
+      "muted": { "value": "#6E6E6E" },
+      "inverse": { "value": "#FFFFFF" }
+    },
+    "background": {
+      "surface": { "value": "#FFFFFF" },
+      "subtle": { "value": "#F5F5F5" },
+      "inverse": { "value": "#1A1A1A" }
+    },
+    "border": {
+      "default": { "value": "#DADADA" },
+      "focus": { "value": "#5C33F6" }
+    }
+  }
+}

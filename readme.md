@@ -1,8 +1,8 @@
 # Sigil Design System ✶
 
-A cross-framework design system for modern web apps — built with accessibility, interoperability, and storytelling in mind by Krissy Conant.
+A modern design system built with accessibility, scalability, and product-minded engineering in mind — created by [Krissy Conant](https://krissyconant.com).
 
-Sigil provides a collection of reusable, accessible Web Components (using [Lit](https://lit.dev)) and React wrappers, along with design tokens and documentation powered by Storybook.
+Sigil offers reusable, accessible UI components in **React**, standardized design tokens, and robust documentation via Storybook.
 
 ---
 
@@ -10,10 +10,9 @@ Sigil provides a collection of reusable, accessible Web Components (using [Lit](
 
 | Package                                                  | Description                                  |
 | -------------------------------------------------------- | -------------------------------------------- |
-| [`@sigil/components-wc`](./packages/components-wc)       | Web Components built with Lit                |
-| [`@sigil/components-react`](./packages/components-react) | React wrappers around the WC library         |
+| [`@sigil/components-react`](./packages/components-react) | React component library                      |
 | [`@sigil/design-tokens`](./packages/design-tokens)       | Design tokens for color, spacing, typography |
-| [`apps/demo-app`](./apps/demo-app)                       | Example consumer app using the design system |
+| [`apps/demo-app`](./apps/demo-app)                       | Example consumer app using the system        |
 
 ---
 
@@ -23,6 +22,14 @@ Sigil provides a collection of reusable, accessible Web Components (using [Lit](
 pnpm install
 pnpm storybook
 ```
+
+## 🧱 Stack
+
+- ⚛️ React 18 + TypeScript
+- 🧪 Vitest, Testing Library, jest-axe
+- 📚 Storybook for documentation and testing
+- 🎨 CSS Custom Properties for theming
+- 🧶 Monorepo managed with pnpm workspaces
 
 ## 📜 License
 

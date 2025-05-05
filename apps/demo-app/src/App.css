@@ -1,0 +1,32 @@
+:root {
+  font-family: var(--font-family-base, sans-serif);
+  color: var(--text-default, #111);
+  background-color: var(--background-default, #fff);
+  line-height: 1.5;
+}
+
+/* Root wrapper from React entry point */
+#root {
+  display: flex;
+}
+
+/* Main layout area */
+main {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: left;
+  font-family: var(--font-family-base, sans-serif);
+}
+
+/* Headline */
+h1 {
+  color: var(--color-primary, #2b6cb0);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Paragraphs */
+p {
+  color: var(--color-text, #333);
+  font-size: 1.125rem;
+}
