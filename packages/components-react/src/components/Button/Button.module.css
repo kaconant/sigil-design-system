@@ -1,0 +1,39 @@
+.button {
+  font-family: var(--font-family-base);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-normal);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.primary {
+  background-color: var(--color-primary, #1a73e8);
+  color: white;
+}
+
+.secondary {
+  background-color: var(--color-secondary, #e2e2e2);
+  color: #333;
+}
+
+.small {
+  font-size: var(--font-size-sm);
+  padding: 0.25rem 0.75rem;
+}
+
+.medium {
+  font-size: var(--font-size-md);
+  padding: 0.5rem 1rem;
+}
+
+.large {
+  font-size: var(--font-size-lg);
+  padding: 0.75rem 1.5rem;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

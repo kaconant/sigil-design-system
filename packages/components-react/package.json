@@ -2,6 +2,7 @@
   "name": "@sigil/components-react",
   "version": "0.1.0",
   "description": "React component library for the Sigil Design System",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +10,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest"
+    "test": "vitest",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [
     "design-system",
@@ -22,7 +25,8 @@
   "packageManager": "pnpm@10.9.0",
   "dependencies": {
     "react": "18",
-    "react-dom": "18"
+    "react-dom": "18",
+    "@sigil/design-tokens": "workspace:*"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.4",

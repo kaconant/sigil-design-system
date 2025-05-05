@@ -99,6 +99,9 @@ importers:
 
   packages/components-react:
     dependencies:
+      '@sigil/design-tokens':
+        specifier: workspace:*
+        version: link:../design-tokens
       react:
         specifier: '18'
         version: 18.3.1
